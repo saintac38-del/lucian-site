@@ -22,23 +22,22 @@ export function Footer() {
 
   // 기본 데이터
   const defaultInfo = {
-    showFooter: true,
-    name: "당신의 이름",
-    description: "당신을 소개하는 짧은 문구를 작성해주세요. ",
-    showQuickLinks: true,
-    quickLinksTitle: "빠른 링크",
-    showContactInfo: true,
-    contactTitle: "연락처",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
-    location: "당신의 위치",
-    copyright: "",
-    showMadeWith: true,
-    madeWithLocation: "Mrbaeksang",
-    showTemplateCredit: true,
-    templateCreator: {"name":"백상","youtube":"https://www.youtube.com/@Mrbaeksang95/videos","website":"https://devcom.kr/","email":"qortkdgus95@gmail.com"},
-    showScrollTop: true
-  }
+  showFooter: true,
+  name: "Lucian Afterglow",
+  description: "빛이 지나간 자리, 도시의 표면, 여행의 잔상을 사진과 문장으로 기록합니다.",
+  showQuickLinks: true,
+  quickLinksTitle: "빠른 링크",
+  showContactInfo: true,
+  contactTitle: "연락처",
+  phone: "",
+  email: "contact@rucian.kr",
+  location: "Hwaseong, Gyeonggi-do, Korea",
+  copyright: "© 2026 Lucian Afterglow. All rights reserved.",
+  showMadeWith: true,
+  showTemplateCredit: true,
+  },
+  showScrollTop: true
+}
 
   const [footerInfo, setFooterInfo] = useState(defaultInfo)
 
