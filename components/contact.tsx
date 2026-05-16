@@ -34,26 +34,26 @@ export function Contact() {
   
   // 기본 데이터
   const defaultInfo = {
-    name: "당신의 이름",
-    title: "직책/직무",
-    company: "",
-    experience: "3년 경력",
-    phone: "010-0000-0000",
-    email: "your-email@example.com",
-    website: "",
-    location: "당신의 위치",
-    workTime: "평일 09:00 - 18:00",
-    responseTime: "24시간 이내 응답",
-    sectionTitle: "연락처",
-    sectionSubtitle: "프로젝트 문의나 협업 제안을 기다리고 있습니다. 편하신 방법으로 연락주세요!",
-    qrTitle: "QR 코드로 연락처 저장",
-    qrSubtitle: "스캔하면 연락처가 자동으로 저장됩니다",
-    bottomMessage: "함께 성장하는 파트너가 되겠습니다.",
-    bottomSubMessage: "고객님의 성공적인 프로젝트를 위해 최선을 다하겠습니다.",
-    qrContent: ["name","phone","email","location","website"],
-    profileEmoji: "👤",
-    background: {"image":"","video":"","color":"","opacity":0.1}
-  }
+  name: "루시안",
+  title: "사진 에세이스트 · 독립출판 기획자",
+  company: "Tripfull Publishing",
+  experience: "Photography · Essay · Publishing",
+  phone: "",
+  email: "lucian.tripfull@gmail.com",
+  website: "https://www.instagram.com/lucian.afterglow/",
+  location: "Hwaseong, Gyeonggi-do, Korea",
+  workTime: "프로젝트별 협의",
+  responseTime: "메일 또는 인스타그램 DM",
+  sectionTitle: "Contact",
+  sectionSubtitle: "사진 에세이, 독립출판, 콘텐츠 기획, 협업 제안을 기다립니다.",
+  qrTitle: "Lucian Afterglow",
+  qrSubtitle: "Instagram과 작업 정보를 확인할 수 있습니다.",
+  bottomMessage: "사라지는 장면을 함께 기록할 수 있다면 좋겠습니다.",
+  bottomSubMessage: "사진, 글, 출판, 콘텐츠 협업을 편하게 제안해주세요.",
+  qrContent: ["name","email","location","website"],
+  profileEmoji: "📷",
+  background: {"image":"","video":"","color":"","opacity":0.1}
+}
   
   // 소셜 링크 기본값 (배열 형태로 변경)
   const defaultSocialLinks: { name: string; icon: string; url: string }[] = []
