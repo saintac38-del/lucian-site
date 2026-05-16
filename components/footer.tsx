@@ -21,7 +21,7 @@ export function Footer() {
   }
 
   // 기본 데이터
-  const defaultInfo = {
+ const defaultInfo = {
   showFooter: true,
   name: "Lucian Afterglow",
   description: "빛이 지나간 자리, 도시의 표면, 여행의 잔상을 사진과 문장으로 기록합니다.",
@@ -34,9 +34,15 @@ export function Footer() {
   location: "Hwaseong, Gyeonggi-do, Korea",
   copyright: "© 2026 Lucian Afterglow. All rights reserved.",
   showMadeWith: true,
+  madeWithLocation: "Mrbaeksang",
   showTemplateCredit: true,
+  templateCreator: {
+    name: "백상",
+    youtube: "https://www.youtube.com/@Mrbaeksang95/videos",
+    website: "https://devcom.kr/",
+    email: "qortkdgus95@gmail.com",
   },
-  showScrollTop: true
+  showScrollTop: true,
 }
 
   const [footerInfo, setFooterInfo] = useState(defaultInfo)
