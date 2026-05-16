@@ -33,9 +33,9 @@ export function Footer() {
   email: "contact@rucian.kr",
   location: "Hwaseong, Gyeonggi-do, Korea",
   copyright: "© 2026 Lucian Afterglow. All rights reserved.",
-  showMadeWith: true,
+  showMadeWith: false,
   madeWithLocation: "Mrbaeksang",
-  showTemplateCredit: true,
+  showTemplateCredit: false,
   templateCreator: {
     name: "백상",
     youtube: "https://www.youtube.com/@Mrbaeksang95/videos",
