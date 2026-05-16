@@ -33,20 +33,24 @@ export function Hero() {
   const { getData, saveData, isEditMode, saveToFile, saveFieldToFile } = useInlineEditor()
   
   // 초기 데이터 - 배열 형태로 변경
-  const defaultSocialLinks = [{"name":"Instagram","icon":"instagram","url":"https://instagram.com/username"},{"name":"YouTube","icon":"youtube","url":"https://youtube.com/@username"}]
+  const defaultSocialLinks = [
+  {"name":"Instagram","icon":"instagram","url":"https://www.instagram.com/lucian.afterglow/"},
+  {"name":"Tripfull Publishing","icon":"globe","url":"#projects"},
+  {"name":"Contact","icon":"mail","url":"#contact"}
+]
   
   const defaultInfo = {
-    greeting: "안녕하세요,",
-    name: "당신의 이름",
-    title: "프론트엔드 개발자",
-    description: "창의적인 아이디어로 웹 경험을 디자인합니다.",
-    profileImage: "",
-    backgroundImage: "",
-    backgroundVideo: "",
-    backgroundOpacity: 0.1,
-    projectButton: "프로젝트 보기",
-    background: {"image":"","video":"","color":"","opacity":0.1}
-  }
+  greeting: "Lucian Afterglow",
+  name: "루시안",
+  title: "사진 에세이스트 · 독립출판 기획자",
+  description: "사라지는 장면에 시선을 남깁니다. 빛, 거리, 여행, 오래된 표면, 조용한 일상의 순간을 사진과 문장으로 기록하고, 그 기록을 책과 에세이로 엮어갑니다.",
+  profileImage: "",
+  backgroundImage: "",
+  backgroundVideo: "",
+  backgroundOpacity: 0.1,
+  projectButton: "작업 보기",
+  background: {"image":"","video":"","color":"","opacity":0.1}
+}
 
   const [backgroundData, setBackgroundData] = useState<{ image: string; video: string; color: string; opacity: number } | null>(null)
   const [heroInfo, setHeroInfo] = useState(defaultInfo)
