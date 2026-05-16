@@ -96,16 +96,59 @@ export function About() {
   const { getData, saveData, isEditMode, saveToFile } = useInlineEditor()
   // 기본 데이터
   const defaultInfo = {
-    title: "소개",
-    subtitle: "당신의 전문성과 열정을 소개해주세요.",
-    background: {"image":"","video":"","color":"","opacity":0.1},
-    experienceCards: [{"icon":"briefcase","title":"회사명","period":"2020 - 현재","description":"직무 및 역할"},{"icon":"graduation","title":"학교명","period":"2016 - 2020","description":"전공 및 학위"},{"icon":"award","title":"자격증/수상","period":"2021","description":"설명을 입력하세요"}],
-    skills: [{"icon":"code","title":"프론트엔드 개발","description":"React, TypeScript, Next.js를 활용한 모던 웹 개발"},{"icon":"database","title":"백엔드 개발","description":"Node.js, Python, 데이터베이스 설계 및 구현"},{"icon":"palette","title":"UI/UX 디자인","description":"사용자 중심의 인터페이스 디자인"}],
-    storyTitle: "나의 이야기",
-    story: ["저는 기술을 통해 사람들의 삶을 더 편리하고 의미 있게 만드는 일에 열정을 가지고 있습니다.","다양한 프로젝트를 통해 문제 해결 능력과 창의적인 사고를 키워왔으며, 팀원들과의 협업을 통해 함께 성장하는 가치를 배웠습니다.","앞으로도 지속적인 학습과 도전을 통해 더 나은 개발자가 되기 위해 노력하겠습니다."],
-    storyImage: "",
-    hobbies: ["📚 독서","☕ 카페 투어","🎨 전시회 관람","✈️ 여행"]
-  }
+  title: "About Lucian",
+  subtitle: "사진과 문장으로 사라지는 장면을 기록합니다.",
+  background: {"image":"","video":"","color":"","opacity":0.1},
+
+  experienceCards: [
+    {
+      "icon":"camera",
+      "title":"Lucian Afterglow",
+      "period":"Photo Essay Project",
+      "description":"빛, 도시, 여행, 계절, 오래된 표면을 중심으로 일상의 잔상을 기록하는 사진 에세이 프로젝트입니다."
+    },
+    {
+      "icon":"bookOpen",
+      "title":"Tripfull Publishing",
+      "period":"Independent Publishing",
+      "description":"사진과 인문적 시선을 바탕으로 책, 에세이, 독립출판 콘텐츠를 기획하고 제작합니다."
+    },
+    {
+      "icon":"edit",
+      "title":"Writing & Visual Archive",
+      "period":"Essay / Travel / Culture",
+      "description":"여행, 역사, 문화, 도시의 장면을 사진과 문장으로 연결해 아카이브합니다."
+    }
+  ],
+
+  skills: [
+    {
+      "icon":"camera",
+      "title":"Photography",
+      "description":"도시, 여행, 빛, 표면, 사라지는 일상의 장면을 절제된 구도와 색감으로 기록합니다."
+    },
+    {
+      "icon":"fileText",
+      "title":"Photo Essay",
+      "description":"사진 한 장에 머무는 감정과 장소의 분위기를 짧은 문장과 에세이로 확장합니다."
+    },
+    {
+      "icon":"bookOpen",
+      "title":"Independent Publishing",
+      "description":"기록을 책의 구조로 편집하고, 하나의 시선이 담긴 출판물로 완성합니다."
+    }
+  ],
+
+  storyTitle: "나의 이야기",
+  story: [
+    "Lucian Afterglow는 빠르게 지나가는 일상 속에서 쉽게 사라지는 장면을 붙잡기 위해 시작한 사진 에세이 프로젝트입니다.",
+    "저는 장소를 정보로만 보지 않습니다. 빛의 방향, 유리창에 번지는 색, 오래된 벽의 표면, 지나간 사람의 흔적처럼 말로 설명하기 어려운 분위기를 기록하려 합니다.",
+    "사진은 장면을 남기고, 문장은 그 장면이 사라진 뒤에도 남는 감각을 붙잡습니다. 이 포트폴리오는 그 기록들을 모아 보여주는 작은 전시장이자 작업실입니다."
+  ],
+
+  storyImage: "",
+  hobbies: ["📷 사진", "✍️ 에세이", "📚 독립출판", "🚲 라이딩", "✈️ 여행"]
+}
   
   const [aboutInfo, setAboutInfo] = useState(defaultInfo)
   const [backgroundData, setBackgroundData] = useState(
