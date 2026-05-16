@@ -30,7 +30,7 @@ export function Footer() {
   showContactInfo: true,
   contactTitle: "연락처",
   phone: "",
-  email: "contact@rucian.kr",
+  email: "lucian.tripfull@gmail.com",
   location: "Hwaseong, Gyeonggi-do, Korea",
   copyright: "© 2026 Lucian Afterglow. All rights reserved.",
   showMadeWith: false,
